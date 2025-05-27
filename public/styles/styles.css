@@ -1,0 +1,33 @@
+.form-floating > .form-control-lg {
+  height: 35vh;
+}
+
+.imp{
+  color: red;
+}
+
+.about-container {
+  display: flex;
+  align-items: center; /* Vertically centers items */
+  gap: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  flex-wrap: wrap; /* Responsive fallback */
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-height: 300px;
+}
+
+.about-text {
+  flex: 2;
+  min-width: 300px;
+}
+
